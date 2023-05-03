@@ -1,0 +1,17 @@
+light colour{
+    color-scheme: 
+    rgb(33,205,192), 
+    #21cdc0;
+}
+
+normal colour{
+    color-scheme: 
+    rgb(56,81,162), 
+    #3851a2;
+}
+
+dark colour{
+    color-scheme: 
+    rgb(29,42,77), 
+    #1d2a4d;
+}

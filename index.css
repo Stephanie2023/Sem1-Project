@@ -1,0 +1,245 @@
+
+
+.navbar{
+    background-color: white;
+    padding: 20px 0px;
+    box-shadow: 0px 5px 6px grey;
+}
+
+.nav-item{
+    margin-right: 50px;
+}
+
+.navIMG{
+    height: 40px;
+}
+
+.nav-link{
+    /* height: 100px; */
+    /* object-fit: inherit; */
+    /* object-fit: cover; */
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    background-color: rgb(29,42,77);
+    color: white;
+}
+
+.navbar-brand{
+    margin-right: 400px;
+}
+
+.banner_hold{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    background-image: url(/assets/images/bannerImage1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_text{
+    text-align: left;
+    color: rgb(29,42,77);
+}
+
+.banner_text h1{
+    font-family: "Quicksand", sans-serif;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner_text p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.aboutUs_hold{
+    width: 100%;
+    height: 500px;
+    /* padding-left: 30px; */
+    background-color: rgb(29,42,77);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs_items{
+    color: white;
+    display: flex;
+}
+
+.aboutUs_hold div{
+    width: 75%;
+}
+
+/* .aboutUs_hold h1{
+    width: 200%;
+} */
+
+.profEd_hold{
+    height: 550px;
+    display: flex;
+}
+
+.profEd_items{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profEd_img{
+    width: 300px;
+    margin-left: 30px;
+}
+
+.profEd_text{
+    width: 65%;
+    margin-left: 30px;
+}
+
+.profEd_text button{
+    height: 40px;
+    border-radius: 8px;
+    border: 1px;
+    background-color: lightblue;
+}
+
+.profEd_text p{
+    font-size: 25px;
+}
+
+.patEd_hold{
+    height: 550px;
+    display: flex;
+}
+
+.patEd_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.patEd_text p{
+    font-size: 25px;
+}
+
+.patEd_text{
+    width: 55%;
+    margin-left: 10%;
+}
+
+.patEd_img{
+    width: 300px;
+    margin-right: 20%;
+}
+
+.patEd_text button{
+    height: 40px;
+    border-radius: 8px;
+    border: 1px;
+    background-color: lightblue;
+}
+
+.footer_hold{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_hold p{
+    font-size: 14px;
+    color: rgb(29,42,77);
+}
+
+
+@media (max-width: 1024px){
+    .navbar-brand{
+        margin-right: 120px;
+    }
+}
+
+@media (max-width: 320px){
+    .navbar-brand{
+        margin-right: 100px;
+    }
+    .banner_text h1{
+        font-size: 40px;
+    }
+    .profEd_hold{
+        height: 300px;
+    }
+    .profEd_text p{
+        font-size: 10px;
+    }
+    .profEd_img{
+        width: 150px;
+    }
+    .profEd_text button{
+        font-size: 10px;
+    }
+
+
+    .patEd_hold{
+        height: 300px;
+    }
+    .patEd_text{
+        width: 35%;
+    }
+    .patEd_text p{
+        font-size: 20px;
+    }
+    .patEd_img{
+        width: 150px;
+    }
+    .patEd_text button{
+        font-size: 10px;
+    }
+
+
+    .footer_hold p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width:425px) {
+    
+}
+
+@media (max-width: 768px){
+    .banner_hold{
+        align-items: center;
+        padding-left: 0px;
+    }
+    .banner_text{
+        width: 80%;
+        text-align: center;
+    }
+    .aboutUs_items{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px){
+    .banner_text{
+        width: 35%;
+    }
+    .banner_text p{
+        width: 50%;
+    }
+}
