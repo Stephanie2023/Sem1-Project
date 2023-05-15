@@ -1,0 +1,47 @@
+section{
+    margin: 35px 0px;
+}
+.aboutUs_p h1{
+    text-align: center;
+    margin: 20px;
+}
+.aboutUs_p p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.about_items{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .about_items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.compStats_hold{
+    width: 70%;
+    padding-right: 20px;
+}
+.compStats_items{
+    display: flex;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.Ccard_hold{
+    padding: 30px;
+    border: 1px solid #52cbcb;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.Ccard_items{
+    display: flex;
+    flex-direction: column;
+}
